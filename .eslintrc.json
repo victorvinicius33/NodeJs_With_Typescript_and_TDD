@@ -1,0 +1,7 @@
+{
+  "extends": "standart-with-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "no-magic-numbers": "off",
+}
