@@ -1,7 +1,7 @@
 {
-  "extends": "standart-with-typescript",
+  "extends": "eslint-config-love",
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "no-magic-numbers": "off",
+  "no-magic-numbers": "off"
 }
