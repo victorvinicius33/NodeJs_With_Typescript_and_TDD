@@ -20,8 +20,7 @@ export class AccountMongoRepository implements AddAccountRepository {
         },
       }
     )
-    const { _id, ...accountSuccess } = account
-    accountSuccess.id = _id.toHexString()
-    return accountSuccess as AccountModel
+
+    return MongoHelper.map(account)
   }
 }
